@@ -8,9 +8,14 @@
 }
 
 .header {
+    font-size: 1.4rem;
     height: 7rem;
     background-color: white;
     border-bottom: vat(--color-grey-light-2);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .content {
@@ -27,6 +32,4 @@
     background-color: #fff;
 
     flex: 1;
-
-    
 }
